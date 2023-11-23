@@ -1,0 +1,1061 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "circularStd-Black";
+    src: url('../fonts/circular-std-font-family/CircularStd-Black.ttf');
+}
+@font-face {
+    font-family: "CircularStd-Bold";
+    src: url('../fonts/circular-std-font-family/CircularStd-Bold.ttf');
+}
+@font-face {
+    font-family: "CircularStd-Book";
+    src: url('../fonts/circular-std-font-family/CircularStd-Book.ttf');
+}
+@font-face {
+    font-family: "Poppins-Black";
+    src: url('../fonts/Poppins/Poppins-Black.ttf');
+}
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url('../fonts/Poppins/Poppins-Bold.ttf');
+}
+@font-face {
+    font-family:"Volkhov-Regular" ;
+    src: url('../fonts/Volkhov/Volkhov-Regular.ttf');
+}
+@font-face {
+    font-family: "Volkhov-Bold";
+    src: url('../fonts/Volkhov/Volkhov-Bold.ttf');
+}
+:root{
+    --blackcolor:#303942;
+    --bluecolor:#35aef6;
+    --greencolor:#40df79;
+}
+.container{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bg_img{
+    background-image: url("../image/home/Banner\ 1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+img.scroll {
+    width: 250px;
+    position: relative;
+    top: 210px;
+    left: 20px;
+}
+.head{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 8px 230px;
+    background-color: var(--blackcolor);
+}
+.head_1{
+    color: var(--greencolor) !important;
+}
+.head img{
+    width: 10px;
+    position: relative;
+    right: 7px;
+    top: 2px;
+}
+.head p{
+    font-size: 8px;
+    color: white;
+    font-family:"CircularStd-Bold" ;
+}
+#dropdown{
+    font-family:"CircularStd-Bold" ;
+    font-size: 8px;
+    background-color: var(--blackcolor);
+    color: white;
+    border: var(--blackcolor);
+}
+.menu{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 10px 5px;
+}
+.navigation a{
+    font-family:"CircularStd-Bold" ;
+    position: relative;
+    left: 5px;
+    bottom: 45px;
+    margin-right: 20px;
+}
+.navigation img{
+    width: 70px;
+    position: relative;
+    right: 20px;
+}
+.logo img{
+    width: 95px;
+}
+.navigation a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+.logo {
+    position: relative;
+    left: 30px;
+    bottom: 15px;
+}
+.content p{
+    color: white;
+    font-family: "circularStd-Black";
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+    left: 210px;
+    top: 100px;
+    width: 50%;
+}
+.search_div{
+    position: relative;
+    left: 210px;
+    top: 130px;
+}
+input#search{
+    width: 560px;
+    height: 30px;
+    background-color: #b4bac1;
+    border: 1px solid #b1b7be;
+    font-size: 10px;
+    font-family:"CircularStd-Book" ;
+    padding: 25px 12px;
+}
+a.search-btn{
+    text-decoration: none;
+    font-family: "CircularStd-Book";
+    font-size: 9px;
+    padding: 13px 30px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    position: relative;
+    right: 120px;
+}
+.client{
+    display: flex;
+    justify-content: space-evenly;
+}
+.client img{
+    /* background-color: #f4f9fa; */
+    width: 90px;
+}
+.parent{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    margin-top: 80px;
+}
+.child{
+    flex-basis: 40%;
+}
+.about{
+    margin-top: 50px;
+}
+.child img{
+    width: 450px;
+}
+.child a{
+    color: var(--bluecolor);
+    font-size: 10px;
+    font-family:"CircularStd-Black" ;
+    text-decoration: none;
+}
+.child h2{
+    width: 350px;
+    font-family: "Volkhov-Bold";
+    font-size: 28px;
+}
+.child p{
+    width: 360px;
+    font-family: "CircularStd-Book";
+    font-size: 11px;
+    margin-top: 20px;
+    line-height: 15px;
+}
+.Explore{
+    color: white !important;
+    background-color: black;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px 10px;
+    position: relative;
+    top: 30px;
+}
+.best_service{
+    display: flex;
+    justify-content: space-evenly;
+}
+.service{
+    flex-basis: 20%;
+    padding: 15px 20px;
+    text-align: center;
+}
+.service h3{
+    font-family: "Volkhov-Bold";
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.service p{
+    font-family: "CircularStd-Book";
+    font-size: 12px;
+}
+.service img{
+    width: 40px;
+    margin-bottom: 15px;
+}
+.categories{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+.categories a{
+    color: var(--bluecolor);
+    font-size: 10px;
+    font-family:"CircularStd-Black" ;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.categories h2{
+    font-family: "Volkhov-Bold";
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.subcontainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 110px;
+}
+.subchild{
+    flex-basis: 26%;
+}
+.subchild a{
+    color: var(--bluecolor);
+    font-size: 10px;
+    font-family:"CircularStd-Black" ;
+    text-decoration: none;
+}
+.subchild h2{
+    font-family: "Volkhov-Bold";
+    font-size: 28px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.btn-more{
+    width: 105px;
+    position: relative;
+    left: 400px;
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.Flexible{
+    flex-basis: 85%;
+    font-family: "CircularStd-Book";
+    font-size: 10px;
+}
+.Flexible p{
+    font-family: "CircularStd-Book";
+    font-size: 12px;
+}
+.task img{
+    width: 30px;
+}
+.active{
+    /* background-color: #e3f2fb; */
+    width: 50%;
+    background-image: url('../image/home/image\ 872.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height:170px;
+}
+.patient{
+    position: relative;
+    top: 70px;
+    right: 70px;
+    padding: 10px 10px;
+    width: 190px;
+    height: 230px;
+    box-shadow: 1px 1px 10px 1px lightgrey;
+    border-radius: 20px;
+    background-color: white;
+}
+.patient img{
+    width: 170px;
+}
+.patient p{
+    font-family: "CircularStd-Book";
+    font-size: 10px;
+}
+.patient h4{
+    font-family: "Volkhov-Bold";
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+img.office {
+    width: 10px;
+    margin-right: 5px;
+}
+.icon_div{
+    display: flex;
+    margin-top: 15px;
+}
+.icon{
+    flex-basis: 20%;
+    width: 20px;
+    height: 20px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    color: #85829b;
+    background-color: #f6f6f7;
+}
+.maskone{
+    position: relative;
+    left: 110px;
+    bottom: 100px;
+    padding: 10px 10px;
+    box-shadow: 1px 1px 10px 3px whitesmoke;
+    border-radius: 20px;
+    background-color: white;
+}
+.maskone h5{
+    font-family: "Volkhov-Bold";
+    font-size: 12px;
+    margin-top: 3px;
+}
+img.mask {
+    width: 35px;
+}
+.care{
+    position: relative;
+    left: 50px;
+    bottom: 35px;
+}
+.get-in-touch{
+    margin-top: 50px;
+    background-image: url("../image/home/Rectangle\ 19294.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 265px;
+    width: 1263px;
+}
+.get-in-touch img{
+    width: 1263px;
+}
+.get-in-touch a{
+    color: var(--bluecolor);
+    font-size: 13px;
+    font-family:"CircularStd-Book" ;
+    text-decoration: none;
+    position: relative;
+    bottom: 200px;
+    left: 200px;
+}
+.get-in-touch h2{
+    font-family: "Volkhov-Bold";
+    font-size: 28px;
+    position: relative;
+    bottom: 195px;
+    left: 200px;
+    color: white;
+    width: 390px;
+}
+a.btn-get{
+    font-size: 10px;
+    color: black !important;
+    background-color: white;
+    font-family:"CircularStd-Bold" ;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px 10px;
+    position: relative;
+    left: 900px;
+    bottom: 240px;
+}
+i{
+    margin-left: 10px;
+}
+.ourfilds{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.medicine{
+    flex-basis: 37%;
+}
+.medicine a{
+    color: var(--bluecolor);
+    font-size: 10px;
+    font-family:"CircularStd-Black" ;
+    text-decoration: none;
+}
+.medicine h2{
+    font-family: "Volkhov-Bold";
+    font-size: 28px;
+    margin-top: 5px;
+}
+.medicine p{
+    width: 330px;
+    font-family: 'CircularStd-Bold';
+    font-size: 10px;
+    line-height: 15px;
+    margin-top: 10px;
+}
+.medicine img{
+    width: 350px;
+}
+.vaccine{
+    margin-top: 10px;
+}
+.vaccine a{
+    width: 75%;
+    display: block;
+    color: #184363;
+    background-color: white;
+    font-size: 11px;
+    font-family:"CircularStd-Book" ;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 4px 10px;
+}
+a.vaccine_one{
+    color: white;
+    background-color: black;
+}
+.vaccine_div{
+    width: 260px;
+    padding: 10px 10px;
+    border: 1px solid;
+    border-radius: 20px;
+    color: white;
+    background-color: #1a1f4a;
+    position: relative;
+    bottom: 225px;
+    right: 135px;
+}
+.vaccine_div h3{
+    padding: 0px 12px;
+    font-family: "Volkhov-Bold";
+    font-size: 24px;
+}
+.vaccine_div p{
+    width: 225px;
+    font-family: 'CircularStd-Book';
+    font-size: 8px;
+    padding: 5px 12px;
+}
+.vaccine a i{
+    margin-left: 97%;
+    position: relative;
+    bottom: 5px;
+}
+.facemask_div{
+    display: flex;
+    margin-top: -135px;
+}
+.facemask{
+    background-image: url("../image/home/Group 1000001735.png");
+    width: 631px;
+    height: 265px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+}
+.facemask p{
+    font-family: "CircularStd-Book";
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+.facemask h3{
+    font-family: "Volkhov-Bold";
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.facemask a{
+    font-size: 10px;
+    font-family: "CircularStd-Book";
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 10px;
+}
+.facemask_one{
+    background-image: url("../image/home/Group 1000001734.png");
+    width: 631px;
+    height: 265px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+}
+.facemask_one p{
+    font-family: "CircularStd-Book";
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+.facemask_one h2{
+    font-family: "Volkhov-Bold";
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.facemask_one a{
+    font-size: 10px;
+    font-family: "CircularStd-Book";
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 10px;
+}
+.facecontent{
+    position: relative;
+    top: 90px;
+}
+.vitamin{
+    display: flex;
+    justify-content: flex-end;
+}
+.medicine-one{
+    font-family:"CircularStd-Black" ;
+    margin-top: 50px;
+}
+.medicine-one h4{
+    font-size: 12px;
+    color: #df6951;
+    text-align: center;
+}
+.medicine-one h2{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Volkhov-Bold";
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.medical{
+    flex-basis: 30%;
+}
+.medical img{
+    width: 250px;
+}
+.medical h3{
+    font-family: "CircularStd-Black";
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    width: 240px;
+    line-height: 20px;
+}
+.medical p{
+    width: 265px;
+    font-family: "CircularStd-Book";
+    font-size: 10px;
+    line-height: 15px;
+}
+.medical a{
+    font-family:"CircularStd-Black" ;
+    font-size: 8px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 12px;
+    border-radius: 5px;
+    position: relative;
+    top: 30px;
+}
+img.ellipse{
+    width: 70px;
+    position: relative;
+    right: 240px;
+    top: 40px;
+}
+.amount{
+    font-family: "Volkhov-Bold" !important;
+    color:#e22727 ;
+    font-size: 18px !important;
+}
+s{
+    font-family: "Volkhov-Bold";
+    color: #7d7d7d;
+    font-size: 12px;
+}
+.promotion{
+    background-image: url("../image/home/Group\ 1000001736.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 1263px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.promotion h4{
+    font-size: 11px;
+    color: #df6951;
+    text-align: center;
+    position: relative;
+    top: 80px;
+    font-family:"CircularStd-Black" ;
+}
+.promotion h2{
+    font-family: "Volkhov-Bold";
+    font-size: 28px;
+    text-align: center;
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 85px;
+}
+.promotion p{
+    width: 285px;
+    height: 150px;
+    font-family: "CircularStd-Book";
+    font-size: 10px;
+    padding: 10px 12px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.promotion img{
+    width: 100px;
+    position: relative;
+    top: 55px;
+    right: 30px;
+}
+.testimonial{
+    text-align: center;
+    width: 300px;
+    position: relative;
+    left: 490px;
+    top: 80px;
+}
+.testimonial h5{
+    font-size: 9px;
+    font-family: "CircularStd-Bold";
+    position: relative;
+    bottom: 40px;
+}
+.testimonial a{
+    text-decoration: none;
+}
+.testimonial a i{
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    color: white;
+    background: #63be72;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 100%;
+}
+img.quotes{
+    width: 50px;
+    position: relative;
+    right: 80px;
+    top: 71px;
+}
+.leftarrow{
+    position: relative;
+    bottom: 175px;
+    right: 135px;
+}
+.rigtharrow{
+    position: relative;
+    bottom: 280px;
+    left: 180px;
+}
+.plusgen{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    padding: 10px 90px;
+}
+.footer{
+    flex-basis: 20%;
+}
+.footer img{
+    width: 100px;
+}
+.footer p{
+    font-family: "CircularStd-Book";
+    font-size: 10px;
+}
+.footer-div a{
+    text-decoration: none;
+    font-family:"CircularStd-Book" ;
+    font-size: 10px;
+    color: black;
+}
+.footer-div{
+    margin-top: 5px;
+}
+.footer-div p{
+    color: #757095;
+    width: 150px;
+}
+.footer-div img{
+    width: 15px;
+    margin-right: 5px;
+}
+input#email {
+    width: 160px;
+    height: 30px;
+    background-color: #f0eef7;
+    border: 1px solid ghostwhite;
+    font-size: 10px;
+    font-family:"CircularStd-Book" ;
+    padding: 10px 12px;
+    margin-top: 15px;
+}
+a.subscribe {
+    text-decoration: none;
+    font-family: "CircularStd-Book";
+    font-size: 12px;
+    padding: 10px 12px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    position: relative;
+    left: 155px;
+    bottom: 26px;
+}
+.copyright{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+    bottom: 25px;
+}
+.copyright p{
+    font-family: "CircularStd-Book";
+    font-size: 10px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+hr{
+    height: 3px;
+    color: #e5e5ea;
+    background-color: #e5e5ea;
+}
+.back_img{
+    background-image: url("../image/about_us/Rectangle\ 19290.png");
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.back_img::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.3);
+    position: absolute;
+    z-index: 0;
+}
+.backimg_div{
+    position: relative;
+    z-index: 1;
+}
+.content_div{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+.content_div a{
+    color: white;
+    text-decoration: none;
+    font-family: "CircularStd-Bold";
+    font-size: 11px;
+}
+.content_div h2{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "circularStd-Black";
+    font-size: 35px;
+    line-height: 50px;
+}
+.about{
+    display: flex;
+    justify-content: space-evenly;
+}
+.about_div{
+    flex-basis: 30%;
+}
+.about_div img{
+    width: 350px;
+}
+.about_div h2{
+    font-family: "Volkhov-Bold";
+    font-size: 28px;
+    line-height: 35px;
+}
+.about_div p{
+    width: 327px;
+    font-family: "CircularStd-Book";
+    font-size: 10px;
+    line-height: 13px;
+    margin-top: 10px;
+}
+.brands{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.brands_div{
+    flex-basis: 50%;
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.brands_div img{
+    width: 40px;
+    padding: 10px 10px;
+    color: white;
+    background-color: var(--greencolor);
+    border-radius: 5px;
+}
+.brands_content{
+    margin-left: 15px;
+}
+.brands_content h3{
+    font-family: "Poppins-Bold";
+    font-size: 16px;
+}
+.brands_content p{
+    font-family: "CircularStd-Book";
+    font-size: 11px;
+    margin-top: 0px;
+}
+.values{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+.values_div{
+    flex-basis: 40%;
+}
+.values_div img{
+    width: 300px;
+}
+.mission_div{
+    background-color: #181e4b;
+    width: 840px;
+    height: 100%;
+}
+.mission{
+    color: white;
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 50px;
+}
+.mission h2{
+    font-family: "Volkhov-Bold";
+    font-size: 26px;
+}
+.mission p{
+    font-family: "CircularStd-Book";
+    font-size: 10px;
+    line-height: 13px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ul{
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+li{
+    font-family: "CircularStd-Book";
+    font-size: 10px;
+}
+.btn-getin{
+    text-decoration: none;
+    font-size: 10px;
+    color: black !important;
+    background-color: white;
+    font-family:"CircularStd-Bold" ;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px 10px;
+    position: relative;
+    left: 265px;
+    top: 30px;
+}
+.valueone{
+    position: relative;
+    left: 200px;
+    top: 20px;
+}
+.leader{
+    background-color: #1d8743;
+    height: 250px;
+    margin-top: 70px;
+    color: white;
+    text-align: center;
+}
+.leader h5{
+    font-family: "CircularStd-Book";
+    font-size: 12px;
+}
+.leader h2{
+    font-family: "Volkhov-Bold";
+    font-size: 26px;
+    margin-top: 5px;
+}
+.leader p{
+    font-family: "CircularStd-Book";
+    font-size: 10px;
+    line-height: 15px;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+.leader_div{
+    position: relative;
+    top: 70px;
+}
+.leaderone{
+    display: flex;
+    justify-content: center;
+}
+.leader_divone{
+    flex-basis: 20%;
+}
+.leader_divone img{
+    width: 100px;
+    position: relative;
+    top: 40px;
+}
+.leader_divone h3{
+    color: black !important;
+    font-family: "CircularStd-Book";
+    font-size: 20px;
+}
+.background_img{
+    background-image: url("../image/our_partners/Rectangle\ 19290.png");
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.background_img::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.3);
+    position: absolute;
+    z-index: 0;
+}
+.content_div h3{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "circularStd-Black";
+    font-size: 35px;
+    line-height: 50px;
+}
+.partnership{
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.partnership h3{
+    font-family: "Volkhov-Bold";
+    font-size: 30px;
+    margin-top: 30px;
+}
+.partnership p{
+    font-family: "CircularStd-Book";
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 20px;
+}
+.logo_div{
+    background-image: url("../image/our_partners/Rectangle\ 19291.png");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.logo_div::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    z-index: 0;
+}
+.image{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    margin-left: 120px;
+}
+.image_div{
+    flex-basis: 21%;
+    margin-top: 40px;
+}
+.image_div img{
+    width: 70px;
+    height: 100%;
+}
+.image a{
+    text-decoration: none;
+    font-family:"CircularStd-Book" ;
+    font-size: 10px;
+    color: #797979;
+    position: relative;
+    top: 110px;
+    right: 240px;
+    margin-top: 20px;
+}
